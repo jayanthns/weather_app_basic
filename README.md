@@ -5,10 +5,10 @@
 - pip
 
 ##### Clone the project
-```clone command```
+```git clone https://github.com/jayanthns/weather_app_basic.git```
 
 ##### inside the root project
-```cd <root_project>```
+```cd weather_app_basic```
 
 ##### create and activate the environment
 ```python3 -m venv env```
@@ -21,6 +21,9 @@ Activate environment on windows
 
 ##### install dependencies
 ```pip install -r requirements.txt```
+
+##### apply the migrations (1st time)
+```python manage.py migrate```
 
 ##### run the project
 ```python manage.py runserver```
